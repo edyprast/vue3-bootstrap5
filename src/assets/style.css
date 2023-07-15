@@ -1,0 +1,34 @@
+body{
+    background: #eee;
+}
+
+#side_nav {
+    background: #dee0e9;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+
+hr.h-color{
+	border-top: 1px solid #787f85;
+}
+
+.sidebar li.active {
+    background-color: #eee;
+    border-radius: 8px;
+    /* color : #e068da; */
+   
+}
+
+.sidebar li.active , .sidebar li.active a:hover {
+    color: #db4da5;
+}
+
+.sidebar li a {
+    color : #131212;
+}
