@@ -4,22 +4,38 @@
             <div class="sb-sidenav-menu">
                 <div class="nav">
                     <div class="sb-sidenav-menu-heading">Core</div>
-                    <a class="nav-link" href="index.html">
-                        <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    <router-link to="/" class="nav-link">
+                        <div class="sb-nav-link-icon"><font-awesome-icon icon="fa-solid fa-tachometer-alt" /></div>
                         Dashboard
-                    </a>
+                    </router-link>
                     <div class="sb-sidenav-menu-heading">Interface</div>
+
+                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseElement"
+                        aria-expanded="false" aria-controls="collapseLayouts">
+                        <div class="sb-nav-link-icon"><font-awesome-icon :icon="['fas', 'tree']" /> </div>
+                        UI Element
+                        <div class="sb-sidenav-collapse-arrow"><font-awesome-icon :icon="['fas', 'angle-down']" /></div>
+                    </a>
+
+                    <div class="collapse" id="collapseElement" aria-labelledby="headingOne"
+                        data-bs-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <router-link to="/general" class="nav-link">General</router-link>
+                            <router-link to="/modal" class="nav-link">Modal & Alerts</router-link>
+                        </nav>
+                    </div>
+
                     <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts"
                         aria-expanded="false" aria-controls="collapseLayouts">
-                        <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                        Layouts
-                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        <div class="sb-nav-link-icon"><font-awesome-icon icon="fa-solid fa-columns" /> </div>
+                        Component
+                        <div class="sb-sidenav-collapse-arrow"><font-awesome-icon :icon="['fas', 'angle-down']" /></div>
                     </a>
                     <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
                         data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
-                            <a class="nav-link" href="layout-static.html">Static Navigation</a>
-                            <a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
+                            <router-link to="/form" class="nav-link">Form</router-link>
+                            <router-link to="/table" class="nav-link">Table</router-link>
                         </nav>
                     </div>
                     <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseArsipAktif"
