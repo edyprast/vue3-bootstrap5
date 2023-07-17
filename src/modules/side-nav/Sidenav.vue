@@ -21,7 +21,7 @@
                         data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
                             <router-link to="/general" class="nav-link">General</router-link>
-                            <router-link to="/modal" class="nav-link">Modal & Alerts</router-link>
+                            <!-- <router-link to="/modal" class="nav-link">Modal & Alerts</router-link> -->
                         </nav>
                     </div>
 
