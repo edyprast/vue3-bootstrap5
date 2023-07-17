@@ -3,9 +3,9 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import MainPage from "../views/MainPage.vue";
 import FormPage from "../views/forms/FormPage.vue";
 import TablePage from "../views/TablePage.vue";
-import General from "../views/uielements/General.vue";
 import ChartPage from "../views/ChartPage.vue";
-
+import EditorPage from "../views/EditorPage.vue";
+import General from "../views/uielements/General.vue";
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
@@ -22,12 +22,16 @@ const router = createRouter({
       component: TablePage,
     },
     {
-      path: "/general",
-      component: General,
-    },
-    {
       path: "/chart",
       component: ChartPage,
+    },
+    {
+      path: "/editor",
+      component: EditorPage,
+    },
+    {
+      path: "/general",
+      component: General,
     },
   ],
 });

@@ -15,11 +15,11 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <div class="d-flex">
-                            <p><span class="text-bold text-lg">820</span>
+                        <div class="d-flex justify-content-between">
+                            <p><span class="fw-bold text-lg me-2">820</span>
                                 <span>Visitors Over Time</span>
                             </p>
-                            <p class="ml-auto d-flex flex-column text-right">
+                            <p>
                                 <span class="text-success">
                                     <i class="fas fa-arrow-up"></i> 12.5%
                                 </span>
@@ -29,16 +29,6 @@
                         <div class="position-relative mb-4">
                             <line-chart :chart-data="datalinechart2" :chart-option="dataoptions2"></line-chart>
                         </div>
-                        <div class="d-flex flex-row justify-content-end">
-                            <span class="mr-2">
-                                <i class="fas fa-square text-primary"></i> This Week
-                            </span>
-
-                            <span>
-                                <i class="fas fa-square text-gray"></i> Last Week
-                            </span>
-                        </div>
-
                     </div>
                 </div>
             </div>
@@ -53,12 +43,11 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <div class="d-flex">
-                            <p class="d-flex flex-column">
-                                <span class="text-bold text-lg">$18,230.00</span>
+                        <div class="d-flex justify-content-between">
+                            <p><span class="fw-bold text-lg me-2">$18,230.00</span>
                                 <span>Sales Over Time</span>
                             </p>
-                            <p class="ml-auto d-flex flex-column text-right">
+                            <p>
                                 <span class="text-success">
                                     <i class="fas fa-arrow-up"></i> 33.1%
                                 </span>
@@ -68,16 +57,6 @@
                         <div class="position-relative mb-4">
                             <bar-chart :chart-data="databar1"></bar-chart>
                         </div>
-                        <div class="d-flex flex-row justify-content-end">
-                            <span class="mr-2">
-                                <i class="fas fa-square text-primary"></i> This year
-                            </span>
-
-                            <span>
-                                <i class="fas fa-square text-gray"></i> Last year
-                            </span>
-                        </div>
-
                     </div>
                 </div>
             </div>

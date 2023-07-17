@@ -36,20 +36,8 @@
                         <nav class="sb-sidenav-menu-nested nav">
                             <router-link to="/form" class="nav-link">Form</router-link>
                             <router-link to="/table" class="nav-link">Table</router-link>
-                        </nav>
-                    </div>
-                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseArsipAktif"
-                        aria-expanded="false" aria-controls="collapseArsipAktif">
-                        <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                        Arsip Aktif
-                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                    </a>
-                    <div class="collapse" id="collapseArsipAktif" aria-labelledby="headingOne"
-                        data-bs-parent="#sidenavAccordion">
-                        <nav class="sb-sidenav-menu-nested nav">
-                            <a class="nav-link" href="layout-static.html">Daftar Arsip Aktif</a>
-                            <a class="nav-link" href="layout-static.html">Daftar Arsip Vital</a>
-                            <a class="nav-link" href="layout-static.html">Daftar Arsip Terjaga</a>
+                            <router-link to="/chart" class="nav-link">Chart</router-link>
+                            <router-link to="/editor" class="nav-link">Editor</router-link>
                         </nav>
                     </div>
 
