@@ -14,11 +14,13 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@vee-validate/yup": "^4.10.7",
     "@vueup/vue-quill": "^1.2.0",
     "bootstrap": "^5.3.0",
     "bootstrap-icons": "^1.10.5",
     "chart.js": "^3.9.1",
     "lodash": "^4.17.21",
+    "vee-validate": "^4.10.7",
     "vue": "^3.2.47",
     "vue-chart-3": "^3.1.8",
     "vue-flatpickr-component": "^11.0.3",
@@ -29,4 +31,5 @@
     "vite": "^4.3.9"
   }
 }
+
 

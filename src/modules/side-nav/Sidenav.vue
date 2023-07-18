@@ -38,6 +38,7 @@
                             <router-link to="/table" class="nav-link">Table</router-link>
                             <router-link to="/chart" class="nav-link">Chart</router-link>
                             <router-link to="/editor" class="nav-link">Editor</router-link>
+                            <router-link to="/validation" class="nav-link">Validation</router-link>
                         </nav>
                     </div>
 
