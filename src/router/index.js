@@ -7,6 +7,7 @@ import ChartPage from "../views/ChartPage.vue";
 import EditorPage from "../views/EditorPage.vue";
 import General from "../views/uielements/General.vue";
 import ValidatePage from "../views/ValidatePage.vue";
+import Vue3Datatable from "../views/Vue3Datatable.vue";
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
@@ -37,6 +38,10 @@ const router = createRouter({
     {
       path: "/validation",
       component: ValidatePage,
+    },
+    {
+      path: "/easytable",
+      component: Vue3Datatable,
     },
   ],
 });

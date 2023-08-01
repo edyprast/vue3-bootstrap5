@@ -39,6 +39,7 @@
                             <router-link to="/chart" class="nav-link">Chart</router-link>
                             <router-link to="/editor" class="nav-link">Editor</router-link>
                             <router-link to="/validation" class="nav-link">Validation</router-link>
+                            <router-link to="/easytable" class="nav-link">Easy Table</router-link>
                         </nav>
                     </div>
 

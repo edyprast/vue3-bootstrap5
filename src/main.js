@@ -2,6 +2,7 @@ import { createApp } from "vue";
 
 import App from "./App.vue";
 import router from "./router";
+import Vue3EasyDataTable from "vue3-easy-data-table";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap";
 import "./assets/sbadmin.css";
@@ -79,4 +80,5 @@ library.add(
 createApp(App)
   .use(router)
   .component("font-awesome-icon", FontAwesomeIcon)
+  .component("EasyDataTable", Vue3EasyDataTable)
   .mount("#app");
