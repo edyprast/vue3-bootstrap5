@@ -40,6 +40,7 @@
                             <router-link to="/editor" class="nav-link">Editor</router-link>
                             <router-link to="/validation" class="nav-link">Validation</router-link>
                             <router-link to="/easytable" class="nav-link">Easy Table</router-link>
+                            <router-link to="/excelpage" class="nav-link">Excel</router-link>
                         </nav>
                     </div>
 
