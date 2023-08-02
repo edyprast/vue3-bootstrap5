@@ -41,6 +41,7 @@
                             <router-link to="/validation" class="nav-link">Validation</router-link>
                             <router-link to="/easytable" class="nav-link">Easy Table</router-link>
                             <router-link to="/excelpage" class="nav-link">Excel</router-link>
+                            <router-link to="/datatables" class="nav-link">Datatables</router-link>
                         </nav>
                     </div>
 

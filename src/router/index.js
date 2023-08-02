@@ -9,6 +9,8 @@ import General from "../views/uielements/General.vue";
 import ValidatePage from "../views/ValidatePage.vue";
 import Vue3Datatable from "../views/Vue3Datatable.vue";
 import ExcelPage from "../views/ExcelPage.vue";
+import DatatablesPage from "../views/DatatablesPage.vue";
+
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
@@ -47,6 +49,10 @@ const router = createRouter({
     {
       path: "/excelpage",
       component: ExcelPage,
+    },
+    {
+      path: "/datatables",
+      component: DatatablesPage,
     },
   ],
 });
